@@ -1,21 +1,29 @@
 .task1 {
+  display: grid;
 }
 
 .task2 {
+  display: grid;
+ justify-content: flex-start;
+
 }
 
 .task3 {
   display: grid;
+  gap: 25px 10px;
 }
 
 .task4 {
   display: grid;
 }
 .task4 .item2 {
+  order: 5;
 }
 .task4 .item4 {
+  order: 4;
 }
 .task4 .item3 {
+  order: 6;
 }
 
 .task5 {
@@ -24,22 +32,27 @@
 
 .task6 {
   display: grid;
+  justify-content: flex-end;
 }
 
 .task7 {
   display: grid;
+  justify-content: center;
 }
 
 .task8 {
   display: grid;
+  justify-content: space-between;
 }
 
 .task9 {
   display: grid;
+  justify-content: space-around;
 }
 
 .task10 {
   display: grid;
+  justify-content: space-evenly;
 }
 
 .task11 {
@@ -48,14 +61,19 @@
 
 .task12 {
   display: grid;
+grid-template-rows: 80px 80px 80px;
 }
 
 .task13 {
   display: grid;
+  grid-template-rows: 80px 80px 80px;
+ align-content: end;
 }
 
 .task14 {
   display: grid;
+  grid-template-rows: 80px 80px 80px;
+  align-content: center;
 }
 
 .task15 {
@@ -64,30 +82,44 @@
 
 .task16 {
   display: grid;
+  grid-template-rows: 80px 80px 80px;
+  align-content: space-between;
 }
 
 .task17 {
   display: grid;
+  grid-template-rows: 80px 80px 80px;
+  align-content: space-around;
 }
 
 .task18 {
   display: grid;
+  grid-template-rows: 80px 80px 80px;
+  align-content: space-evenly;
 }
 
 .task19 {
   display: grid;
+  grid-template-rows: 80px 80px 80px;
+  align-content: center;
 }
 
 .task20 {
   display: grid;
+  grid-template-columns: 50px 50px;
+  justify-content: start;
 }
 
 .task21 {
   display: grid;
+  grid-template-columns: 50px 50px;
+ justify-content: end;
 }
 
 .task22 {
   display: grid;
+  grid-template-columns: 50px 50px;
+  justify-content: space-around;
 }
 
 .task23 {
@@ -96,6 +128,8 @@
 
 .task24 {
   display: grid;
+ grid-template-rows: 80px 80px 80px;
+align-content: space-between;
 }
 
 .task25 {
@@ -104,6 +138,8 @@
 
 .task26 {
   display: grid;
+  grid-template-rows: 80px 80px 80px;
+  
 }
 
 .task27 {
@@ -116,6 +152,8 @@
 
 .task29 {
   display: grid;
+  grid-template-columns: 50px 50px;
+  justify-content: space-around;
 }
 
 .task30 {
@@ -240,6 +278,8 @@
 
 .task51 {
   display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 1fr;
 }
 
 .task52 {
