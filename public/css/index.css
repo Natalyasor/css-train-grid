@@ -148,6 +148,8 @@ align-content: space-between;
 
 .task28 {
   display: grid;
+  grid-template-rows: 80px 80px 80px;
+  grid-row-gap: 40px;
 }
 
 .task29 {
@@ -220,10 +222,12 @@ align-content: space-between;
 
 .task41 {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .task42 {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .task42 .item1 {
 }
@@ -242,18 +246,26 @@ align-content: space-between;
   display: grid;
 }
 .task43 .item3 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column: 1 / -1;
 }
 
 .task44 {
   display: grid;
 }
 .task44 .item3 {
+  grid-row-start: 1;
 }
 
 .task45 {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .task45 .item3 {
+ grid-column: 1 / -1;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
 
 .task46 {
@@ -278,10 +290,10 @@ align-content: space-between;
 
 .task51 {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
 .task52 {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
